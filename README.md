@@ -1,5 +1,5 @@
 # ProceduralAnimation
-This is a **"workspace**" for understanding **Inverse Kinematiks** and move the entity without animation. 
+This is a **"workspace**" for understanding **Inverse Kinematiks** and move the entity without animation, and I am planning to add this feature to **"Project Voxel"**
 ## Spider Procedural Animation
 ![ProceduralAnimation - SampleScene - Windows, Mac, Linux - Unity 2021 3 8f1 Personal_ _DX11_ 2024-02-07 03-09-26](https://github.com/Erces/ProceduralAnimation/assets/51009171/f9deffef-98b3-4830-bc82-61c598b8bc16)
 #### SpiderAnimator Script
@@ -12,3 +12,12 @@ This is a **"workspace**" for understanding **Inverse Kinematiks** and move the 
 - Trackers are attached to entity's body and move with it, when the distance between tracker and its target below the track range, target leg moves to tracker position,
 - Leg height difference is for non-flat surfaces, when some leg higher then others, in this case system takes the difference and sets which side (right/left) is higher then rotate the body this way.
 - Track range is a step range, how much meters should wait till new step
+
+**ISSUES** (Trying to fix)
+- Sometimes on non flat surfaces body can be bugged
+- Going up and down is not smooth yet
+
+  **WHAT WILL BE ADDED**
+  - Climbing walls
+  - Jumping
+  - Movement Input Controller
