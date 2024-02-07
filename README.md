@@ -17,7 +17,7 @@ This is a **"workspace**" for understanding **Inverse Kinematiks** and move the 
 - Sometimes on non flat surfaces body can be bugged
 - Going up and down is not smooth yet
 
-  **WHAT WILL BE ADDED**
+**WHAT WILL BE ADDED**
   - Climbing walls
   - Jumping
   - Movement Input Controller
