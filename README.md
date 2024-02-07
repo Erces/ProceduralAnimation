@@ -5,6 +5,9 @@ This is a **"workspace**" for understanding **Inverse Kinematiks** and move the 
 #### SpiderAnimator Script
 ![image](https://github.com/Erces/ProceduralAnimation/assets/51009171/bbac9e6d-afe1-4588-9c1c-4e59b004158c)
 
+### Rig
+![image](https://github.com/Erces/ProceduralAnimation/assets/51009171/982d9b9b-9816-403b-a924-d08ba87ae2ae)
+
 
 **HOW TO USE:**
 - Targets are individual leg targets, targets are directly effect the IK system acording to their positions
