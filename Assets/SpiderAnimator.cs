@@ -7,16 +7,16 @@ public class SpiderAnimator : MonoBehaviour
 {
     
     [SerializeField] private bool isRightLegHigher;
-    [Header("Transforms")]
-    [SerializeField] private List<Transform> rightLegs;
+    [Header("Targets")]
     [SerializeField] private Transform rightFrontLeg;
     [SerializeField] private Transform rightBackLeg;
     [SerializeField] private Transform leftFrontLeg;
     [SerializeField] private Transform leftBackLeg;
     [Space(2)]
-    [SerializeField] private List<Transform> leftLegs;
+    [Header("Legs")]
     [SerializeField] private List<Transform> legs;
     [Space(2)]
+    [Header("Trackers")]
     [SerializeField] private Transform rightTrack;
     [SerializeField] private Transform rightBackTrack;
     [SerializeField] private Transform leftTrack;
