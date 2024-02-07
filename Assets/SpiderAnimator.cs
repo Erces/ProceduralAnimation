@@ -5,26 +5,32 @@ using DG.Tweening;
 using Unity.Mathematics;
 public class SpiderAnimator : MonoBehaviour
 {
-    public List<Transform> rightLegs;
-    public Transform rightFrontLeg;
-    public Transform rightBackLeg;
-    public Transform leftFrontLeg;
-    public Transform leftBackLeg;
-    public float trackRange;
-    public List<Transform> leftLegs;
-    public List<Transform> legs;
-    public float maxLegHeight;
-    public float minLegHeight;
-    public float legHeightDifference;
+    
     [SerializeField] private bool isRightLegHigher;
+    [Header("Transforms")]
+    [SerializeField] private List<Transform> rightLegs;
+    [SerializeField] private Transform rightFrontLeg;
+    [SerializeField] private Transform rightBackLeg;
+    [SerializeField] private Transform leftFrontLeg;
+    [SerializeField] private Transform leftBackLeg;
+    [Space(2)]
+    [SerializeField] private List<Transform> leftLegs;
+    [SerializeField] private List<Transform> legs;
+    [Space(2)]
     [SerializeField] private Transform rightTrack;
     [SerializeField] private Transform rightBackTrack;
     [SerializeField] private Transform leftTrack;
     [SerializeField] private Transform leftBackTrack;
+    [Header("Floats")]
+    [SerializeField] private float maxLegHeight;
+    [SerializeField] private float minLegHeight;
+    [SerializeField] private float legHeightDifference;
+    [SerializeField] private float trackRange;
     
     // Start is called before the first frame update
     void Start()
     {
+        transform.DOMoveZ(transform.position.z + 15,14);
     }
 
     // Update is called once per frame
