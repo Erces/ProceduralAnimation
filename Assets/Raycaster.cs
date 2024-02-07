@@ -15,8 +15,8 @@ public class Raycaster : MonoBehaviour
     void FixedUpdate()
     {
         RaycastHit hit;
-        if(Physics.Raycast(transform.position,-Vector3.up ,out hit,Mathf.Infinity)){
-            Debug.DrawRay(transform.position,-Vector3.up * hit.distance,Color.green);
+        if(Physics.Raycast(transform.position,-transform.up ,out hit,Mathf.Infinity)){
+            Debug.DrawRay(transform.position,-transform.up * hit.distance,Color.green);
             tracker.position = hit.point;
             Debug.Log("Hit");
         }
